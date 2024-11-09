@@ -1,0 +1,148 @@
+ nav{
+    position: static;
+    z-index: 0;
+ }
+ .main{
+   font-family: var(--font2);
+   background-color: white;
+   width: 80%;
+   height: auto;
+   margin: 25px auto;
+   text-align: center;
+   border-radius: 20px
+
+ }
+ .learn-title{
+    color:  black;
+    font-size: 2.5rem;
+    font-family: var(--font2);
+    padding: 30px 0; 
+
+ }
+ .matter{
+   text-align:justify;
+   width: 50rem;
+   margin: auto;
+   font-family: monospace;
+   font-size: 20px; 
+ }
+
+ .news-title{
+   padding: 10px 0;
+ }
+ .item1{   
+    width: 40rem;
+   margin: 0px 10px;
+   display: flex;
+   flex-direction: column;
+}
+.item1-title{
+   margin: 20px 0;
+   font-size: 2rem
+}
+
+.item2{
+   width: 400px;
+   height: auto;
+   background-color: whitesmoke;
+   text-align: left;
+}
+
+.item2 img{
+   width: 200px;
+   height: auto; 
+}
+.news{
+   display: flex;
+   flex-direction: row;
+   margin: 39px 20px;
+}
+.news:hover{
+   background-color: white;
+}
+.upper-item{
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.item3{
+   width: 45rem;
+   height: auto;
+   margin: 25px auto;
+   text-align: left;
+}
+
+/* about-styles */
+.about-container{
+   width: 45rem;
+   height: 33rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-align: center;
+   margin: auto;
+   background-image: url(imges/aboutimg.jpg);
+   background-size: 100%;
+
+}
+/* Contact */
+.container-contact{
+   width: 50%;
+   height: auto; 
+   margin: auto;
+   padding: 50px;
+}
+textarea{
+   padding: 10px 10px;
+   width: 23rem;
+   height: 7rem;
+}
+form input{
+   width: 23rem;
+   height: 2rem;
+   padding: 10px 10px;
+   margin: 25px 0;
+}
+@media only screen and (max-width:750px){
+
+   .learn-title{
+      font-size: 6vw;
+   }
+   .learn-img{
+      height: auto;
+      width: 100%;
+   }
+   .matter{
+      width: 70vw;
+      font-size: 3vw;
+   }
+   .main-news .main{
+      width: 100%;
+   }
+   .item1 img{
+      width: 100%;
+   }
+   .item3 {
+      width: 79vw;
+      padding: 10px 10px; 
+  }
+  .about-container {
+   width: 80%;
+   height: 68vh;
+  }
+  .container-contact {
+   width: 80%;
+}  
+   form input{
+      width: 80%;
+      height: 30px;
+   }
+   form textarea{
+      width: 80%;
+      height: 7vh;
+   }
+}
+/* about */
+.main-about .main{
+   width: 100%;
+}
